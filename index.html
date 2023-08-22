@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="./styles.css"/>
+    <title>Etch-a-Sketch</title>
+</head>
+<body>
+    <div class="title">Etch-a-Sketch!</div>
+    <div class="subtitle">Select a grid size and move your mouse to draw</div>
+    <div class="content">
+
+        <div class="controlSide">
+            <div class="controlLabel">Grid Size</div>
+            <hr>
+            <div class="controls">
+                <div class="sliderContainer">
+                    <div class="sizeLabel">16 x 16</div>
+                    <input type="range" min="1" max="100" value="16" class="slider" class="slider">
+                </div>
+                <button class="apply">Apply<br />Size</button>
+            </div>
+            <div class="bottomButtons">
+                <button class="clear">CLEAR</button>
+                <button class="reset">RESET</button>
+            </div>
+        </div>
+
+        <div class="gridContainer">
+        </div>
+
+    </div>
+</body>
+</html>
